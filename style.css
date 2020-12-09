@@ -375,7 +375,7 @@ ul {
   .dento-btn.booking-btn {
     color: #ffffff !important;
     font-weight: 600;
-    min-width: 140px;
+    min-width: 100px;
     height: 40px;
     line-height: 36px;
     font-size: 12px; }
@@ -429,7 +429,9 @@ ul {
     margin-left: 10px; }
     .top-header-area .top-header-social-info a:focus, .top-header-area .top-header-social-info a:hover {
       color: #00aeef; }
-
+.classy-navbar {
+  margin-left: -15%;
+}
 .classy-nav-container {
   background-color: transparent; }
   .classy-nav-container .classy-navbar {
@@ -1512,31 +1514,30 @@ ul {
       }
 
       /* search  */
-      
+ 
 .probootstrap-home-search {
   padding: 30px;
   background: rgba(0, 0, 0, 0.85);
-  margin-top: 3px;
+  margin-top: 30px;
   color: #ffffff;
   text-align: center;
   float: left;
-  width: 100%;
+  width: 130%;
   border-radius: 4px;
-  margin-left: 80%;
   -webkit-box-shadow: 0px 6px 68px -6px rgba(0, 0, 0, 0.7);
   box-shadow: 0px 6px 68px -6px rgba(0, 0, 0, 0.7);
 }
 
 @media screen and (max-width: 768px) {
   .probootstrap-home-search {
-    margin-top: 1px;
+    margin-top: 100px;
   }
 }
 
 .probootstrap-home-search form {
   float: left;
   width: 100%;
-  margin-bottom: 2px;
+  margin-bottom: 20px;
 }
 
 .probootstrap-home-search a {
@@ -1663,3 +1664,109 @@ ul {
     width: 100%;
   }
 }
+
+
+/* app  */
+
+.app
+{
+	padding-top: 123px;
+	background: #eef2f6;
+	padding-bottom: 117px;
+}
+.app_image
+{
+  width: calc(100% + 33px);
+  height: 110%;
+	-webkit-transform: translateX(-67px);
+	-moz-transform: translateX(-67px);
+	-ms-transform: translateX(-67px);
+	-o-transform: translateX(-67px);
+	transform: translateX(-67px);
+}
+.app_content
+{
+	height: 100%;
+	-webkit-transform: translateX(35px);
+	-moz-transform: translateX(35px);
+	-ms-transform: translateX(35px);
+	-o-transform: translateX(35px);
+	transform: translateX(35px);
+}
+.app_text
+{
+	padding-left: 4px;
+}
+.stores
+{
+	margin-top: 68px;
+	padding-left: 4px;
+}
+.stores > div:not(:last-of-type)
+{
+	margin-right: 19px;
+}
+
+/* video  */
+
+.video_section
+{
+	padding-top: 144px;
+	padding-bottom: 198px;
+}
+.video_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.video_content
+{
+	width: auto;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.video_title
+{
+	font-size: 30px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+.video_subtitle
+{
+	font-size: 14px;
+	font-weight: 300;
+	color: #FFFFFF;
+	margin-top: 3px;
+}
+.video_play
+{
+	margin: 0 auto;
+	margin-top: 43px;
+}
+.video
+{
+	outline: none;
+}
+.play_button
+{
+	cursor: pointer;
+}
+.play_circle
+{
+  margin-top: 50%;
+	fill: rgba(255, 255, 255, 0);
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+.play_button:hover .play_circle
+{
+	fill: rgba(255, 255, 255, 0.15);
+}
+
