@@ -429,9 +429,7 @@ ul {
     margin-left: 10px; }
     .top-header-area .top-header-social-info a:focus, .top-header-area .top-header-social-info a:hover {
       color: #00aeef; }
-.classy-navbar {
-  margin-left: -15%;
-}
+
 .classy-nav-container {
   background-color: transparent; }
   .classy-nav-container .classy-navbar {
